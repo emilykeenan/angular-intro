@@ -9,6 +9,7 @@ sigmanautApp.controller('SigmanautController', function(){
     {
       "firstName": "Luke",
       "lastName": "Schlangen",
+      "fullName": "Luke Schlangen",
       "git_username": "LukeSchlangen",
       "shoutout": "Thanks for being awesome during the angular lecture today."
     }
@@ -18,6 +19,7 @@ sigmanautApp.controller('SigmanautController', function(){
 
   self.createPerson = function(){
     console.log(self.newPerson);
+    self.newPerson.fullName = self.newPerson.firstName + ' ' + self.newPerson.lastName;
     self.people.push(angular.copy(self.newPerson));
   };
 
