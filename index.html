@@ -42,7 +42,7 @@
     <section class="container">
       <h3>Class List</h3>
       <ul class="list-group">
-        <li class="list-group-item" ng-repeat="person in sigmanaut.people | filter:{fullName:personSearch}">
+        <li class="list-group-item" ng-repeat="person in sigmanaut.people | filter:{fullName:personSearch} ">
           <a ng-href="https://github.com/{{person.git_username}}">{{person.firstName}} {{person.lastName}}</a>
           <p>{{person.shoutout}}</p>
         </li>
