@@ -18,6 +18,28 @@ h1 {
   font-family: 'Lobster', cursive;
 }
 
+#addSigmanautButton {
+  margin-bottom: 20px;
+  position: absolute;
+  left: 44.7%;
+  bottom: 0px;
+}
+
+#addSigmanautButton button {
+  background: white;
+  border: 1px solid #FF4700;
+  border-radius: 5px;
+  text-align: center;
+  color: #FF4700;
+  padding: 5px 10px 5px 10px;
+}
+
+#addSigmanautButton button:hover {
+  background: #FF4700;
+  border: 1px solid white;
+  color: white;
+}
+
 h3 {
   padding: 10px;
   margin-bottom: -1px;
@@ -31,6 +53,7 @@ h3 {
 #addForm {
   background: hsla(170, 45%, 75%, 1);
   padding-top: 10px;
+  padding-bottom: 60px;
   margin-bottom: 20px;
   margin-top: 0px;
   border-bottom-left-radius: 10px;
