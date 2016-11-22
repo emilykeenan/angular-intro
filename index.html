@@ -6,13 +6,15 @@
   <script type="text/javascript" src="vendors/angular.min.js"></script>
   <script type="text/javascript" src="scripts/client.js"></script>
   <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
 </head>
 <body>
   <main ng-app="SigmanautApp" ng-controller="SigmanautController as sigmanaut">
     <section class="container">
-      <h1>Sigmanaut's angular list</h1>
+      <h1>List of Sigmanauts with Angular</h1>
       <h3>Add a new person</h3>
-      <form class="col-md-12">
+      <form class="col-md-12" id="addForm">
         <div class="form-group col-md-6">
           <label for="firstName">First Name</label>
           <input type="text" name="firstName" class="form-control" ng-model="sigmanaut.newPerson.firstName" placeholder="First Name"/>
@@ -34,9 +36,9 @@
         </div>
       </form>
 
-      <form class="col-md-12">
-        <label for="search">Shoutout</label>
-      <input type="text" placeholder="search" class="form-control" ng-model="personSearch">
+      <form class="col-md-12" id="searchForm">
+        <label for="search" id="search">Search for a Sigmanaut</label>
+      <input type="text" placeholder="search" id="searchBar" class="form-control" ng-model="personSearch">
     </form>
     </section>
     <section class="container">

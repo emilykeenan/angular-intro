@@ -1,0 +1,66 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#searchBar {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #FF4700;
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  background: hsla(170, 45%, 75%, 0.3);
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+h3 {
+  padding: 10px;
+  margin-bottom: -1px;
+  background: #FF4700;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+#addForm {
+  background: hsla(170, 45%, 75%, 1);
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#search {
+  text-align: center;
+}
+
+.list-group-item {
+  border: 1px solid hsla(170, 45%, 75%, 1);
+  margin-top: 0px;
+}
+
+a {
+  color: hsla(170, 45%, 75%, 1);
+  font-size: 25px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FF4700;
+}
+
+#searchForm {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid hsla(170, 45%, 75%, 1);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
